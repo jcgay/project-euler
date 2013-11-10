@@ -3,4 +3,5 @@
 .idea
 classes
 build
+.java-version
 .gradletasknamecache
