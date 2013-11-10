@@ -8,3 +8,7 @@ dependencies {
     testCompile group: 'org.assertj', name: 'assertj-core', version: '1.5.0'
 }
 
+test {
+    // see http://issues.gradle.org//browse/GRADLE-2846
+    test.scanForTestClasses = false
+}
